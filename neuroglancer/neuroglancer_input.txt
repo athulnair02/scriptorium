@@ -1,0 +1,88 @@
+------------File-------------
+# ~/incasem/data/SVGA1/SVGA1.zarr
+# ~/incasem/data/SVGA2/SVGA2.zarr
+# ~/incasem/data/jrc_hela-2/jrc_hela-2.zarr
+# ~/incasem/data/jrc_hela-3/jrc_hela-3.zarr
+# /nfs/scratch2/fiborganelles/predictions/cell_15.zarr
+# ~/incasem/data/jrc_hela-h89-1/jrc_hela-h89-1.zarr
+# ~/incasem/data/jrc_hela-h89-2/jrc_hela-h89-2.zarr
+# ~/rw_test/test.zarr
+# ~/incasem/data/liver/6461_Lean_Liver.zarr
+# ~/incasem/data/tk_INS1/tk_INS1.zarr
+# ~/incasem/data/tk_INS2/tk_INS2.zarr
+# ~/incasem/data/tk_IPSC1/tk_IPSC1.zarr
+# ~/incasem/data/tk_2024_03_22_Disc_310/tk_2024_03_22_Disc_310.zarr
+/nfs/tkhome/pstock/centroid_figure/composite_eres_centroids.zarr
+----------- Raw ------------
+# raw
+# raw_original
+# raw_4
+# raw_8nm
+# raw_8nm/raw_8nm
+# raw_equalized_0.02
+# raw_equalized_0.02_8nm
+----------- Labels ------------
+# late_endo_350
+# late_endo_600
+# cop_1+2+3_250_small                 -- SVGA1 COP GT
+# cop_1+2+3_350b                      -- SVGA1 COP GT
+# cop_1+2+3_700                       -- SVGA1 COP GT
+# cop_1+2+3_100                       -- SVGA2 COP GT
+# cop_1+2+3_600_small                 -- SVGA1 validation GT
+# cop_1+2+3_250_small_8nm
+# cop_1+2+3_700_8nm
+# cop_1+2+3_350b_8nm
+# er_315
+# cop/predict_4353_subregion_1545_8nm   -- good hela-2 COP prediction
+# cop/predict_4353_subregion_1700_8nm   -- good hela-2 COP prediction
+# cop/predict_4353_subregion_3400_4nm   -- good hela-2 COP prediction
+# cop/predict_4353_subregion_3090_4nm   -- good hela-2 COP prediction
+# cop/cleaned_3400_4nm
+# clathrin_endo_patches/1
+# clathrin_endo_patches/2
+# clathrin_endo_patches/3
+# clathrin_endo_patches/4
+# clathrin_endo_patches/5
+# clathrin_endo_patches/6
+# clathrin_endo_patches/7
+# clathrin_endo_patches/1_val
+# clathrin_endo_patches/9
+----- Prediction ID# -----
+# 4330     -- SVGA1 ER
+# 4341     -- SVGA1 COP
+# 4559     -- SVGA1 clathrin patches 100k
+# 4562     -- SVGA1 clathrin patches 75k + FT
+# 4570     -- SVGA1 CCV
+# 4382     -- SVGA2 from finetuned model
+# 4357     -- hela-2 ER eq
+# 4353     -- hela-2 COP
+# 4560     -- hela-2 clathrin patches 100k
+# 4363     -- hela-h89-1 ER
+# 4367     -- hela-h89-1 COP
+# 4534     -- hela-h89-1 finetuned COP
+# 4536     -- hela-h89-1 finetuned COP eq
+# 4364     -- hela-h89-2 ER
+# 4400     -- hela-h89-2 reattempted COP
+# 4401     -- hela-h89-2 reattempted COP eq
+# 4535     -- hela-h89-2 finetuned COP
+# 4537     -- hela-h89-2 finetuned COP eq
+# 4555     -- tk_INS2 ER eq
+# 4574     -- tk_INS2 COP eq 
+# 4557     -- tk_INS2 clathrin patches 100k
+# 4572     -- IPSC1 clathrin patches
+# 4581     -- tk_2024_03_22_Disc_310 ER eq 
+# 4584     -- tk_2024_03_22_Disc_310 COP eq 
+# 4585     -- tk_2024_03_22_Disc_310 clathrin patches
+------------ Misc -------------
+# volumes/janelia_predictions/eres_seg  -- hela-2 JRC ERES seg
+# volumes/predictions/train_1986/predict_4570/segmentation   -- SVGA1 CCV
+# volumes/predictions/train_2632/predict_4341/segmentation   -- SVGA1 CCV
+# volumes/predictions/train_2631/predict_4353/segmentation   -- hela-2 COP
+# volumes/predictions/train_2632/predict_4574/segmentation   -- tk_INS2 COP
+volumes/composite_2x_downsampled -- hela-2 ERES centroids 8nm
+volumes/composite_8x_downsampled -- hela-2 ERES centroids 32nm
+---------- Bounds -------------
+# cop_ 20-34
+# cop_ 35-49
+# cop_ 50-67
+-------------------------------
