@@ -3,3 +3,4 @@ A collection of useful scripts I made that helped me in research and other misce
 
 Projects include:
 - Neuroglancer Scripts
+- Zarr Scripts
